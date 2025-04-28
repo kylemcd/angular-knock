@@ -1,7 +1,7 @@
 name: Setup Files
 
 on:
-  workflow_call:
+  workflow_dispatch:
 
 concurrency:
   group: setup-files-${{ github.workflow }}-${{ github.ref }}
